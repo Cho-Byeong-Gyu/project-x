@@ -15,7 +15,7 @@ public class HelloBiodome01 {
 				name = name.concat(args[i]);		// String 메서드중 새로운 문자열을 기존 문자열에 더해주는 concat메서드를 활용하여 
 													//사용자가 띄워쓰기를 입력하여 한글자씩 arguments배열에 저장되어도 name변수에 전체이름을 저장
 			}
-			System.out.printf("%s님 스프링와트에 오신걸 환영합니다.", name); // 기본 입출력 메서드중 printf를 활용하여 환영문구 출력하기
+			System.out.printf("\"%s\"님 스프링와트에 오신걸 환영합니다.", name); // 기본 입출력 메서드중 printf를 활용하여 환영문구 출력하기
 		}
 	}
 }
